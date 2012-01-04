@@ -1,7 +1,11 @@
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
+from zope.i18nmessageid import MessageFactory
+messageFactory = MessageFactory('collective.fancyboxgallery')
+_ = messageFactory
 
 easings = SimpleVocabulary(
-    [SimpleTerm(value=u'easeInQuad',       title=_(u'easeInQuad')),
+    [SimpleTerm(value=u'swing',       title=_(u'swing')),
+     SimpleTerm(value=u'easeInQuad',       title=_(u'easeInQuad')),
      SimpleTerm(value=u'easeOutQuad',      title=_(u'easeOutQuad')),
      SimpleTerm(value=u'easeInOutQuad',    title=_(u'easeInOutQuad')),
      SimpleTerm(value=u'easeInCubic',      title=_(u'easeInCubic')),
