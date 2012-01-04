@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.easing">
+
+  <browser:resourceDirectory
+    name="collective.js.easing"
+    directory="resources"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.easing"
+      directory="profiles/default"
+      description='Extension profile for collective.js.easing.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
