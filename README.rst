@@ -23,9 +23,7 @@ Authors
 
   - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
 
-Contributors
-
-  - Johannes Raggam <raggam-nl@adm.at>
+.. Contributors
 
 .. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif
 .. _makinacom:  http://www.makina-corpus.com
