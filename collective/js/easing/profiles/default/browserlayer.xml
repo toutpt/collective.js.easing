@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.js.easing"
-           interface="collective.js.easing.interfaces.ILayer" />
--->
-</layers>
